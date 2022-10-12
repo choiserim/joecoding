@@ -116,5 +116,10 @@ print("bigbig".index("i"))
 print()
 print("문자열 개수 세기 함수 count()") 
 print("bigbig".count("i"))
-
+print()
+print("문자열에 원하는 구분자 넣기 함수 \"원하는 구분자\".join()") 
+print(",".join("문자열 구분자 넣기")) 
+print()
+print("문자열 나누기 함수 split()") 
+print("문자열 구분자 넣기".split()) #결과값이 리스트로 반환 됨, 초기 값은 공백
 
