@@ -38,13 +38,22 @@ print()
  1-4.리스트 반복하기(*)
   -리스트가 * 숫자만큼 반복되어 새로운 리스트를 만들어낸다.
 """
-a = [1, 2, 3]
-b = [4, 5, 6]
+a = [3, 1, 2]
+b = [6, 4, 5]
 print("리스트 더하기 : {}".format(a + b))
 print(f"리스트 반복하기는 : {a * 3}")
 print()
 
 """
  1-5.리스트 관련 함수들
-  -리스트에 요소 추가 append()
+  -리스트에 요소 추가 
+   1).append()
+   2).insert()
+   3).extend()
 """
+print("리스트에 요소 추가하기 append()")
+print(b)
+b.append(7)
+print(b)
+a.insert(3, 348)
+print(a)
