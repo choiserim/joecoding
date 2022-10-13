@@ -122,8 +122,15 @@ print("문자열 개수 세기 함수 count()")
 print("bigbig".count("i"))
 print()
 print("문자열에 원하는 구분자 넣기 함수 \"원하는 구분자\".join()") 
-print(",".join("문자열 구분자 넣기")) 
+print(",".join("문자열 구분자 넣기"))
+print("*".join('abcd')) 
 print()
 print("문자열 나누기 함수 split()") 
 print("문자열 구분자 넣기".split()) #결과값이 리스트로 반환 됨, 초기 값은 공백
 
+"""
+1-11.replace(바뀌게 될 문자열, 바꿀 문자열)처럼 사용해서 문자열 안의 특정한 값을 다른 값으로 치환해 준다.
+"""
+a = "life is too short"
+print(a.replace("life", "reg"))
+print(a) # 원래 값은 변하지 않는다. 
