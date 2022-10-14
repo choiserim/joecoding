@@ -124,6 +124,7 @@ print()
 print("문자열에 원하는 구분자 넣기 함수 \"원하는 구분자\".join()") 
 print(",".join("문자열 구분자 넣기"))
 print("*".join('abcd')) 
+print(type("*".join(["n", "i", "k", "e"]))) #결과값이 스트링으로 반환 됨
 print()
 print("문자열 나누기 함수 split()") 
 print("문자열 구분자 넣기".split()) #결과값이 리스트로 반환 됨, 초기 값은 공백
